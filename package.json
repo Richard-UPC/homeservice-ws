@@ -1,0 +1,35 @@
+{
+  "name": "homeservices-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "richard aranibar roman",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.6",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.7",
+    "class-transformer": "^0.2.3",
+    "class-transformer-validator": "^0.8.0",
+    "class-validator": "^0.11.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "firebase-admin": "^8.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.22"
+  }
+}
